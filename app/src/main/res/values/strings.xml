@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tic tac toe</string>
+    <string name="button_x_status">X</string>
+    <string name="button_o_status">O</string>
+    <string name="text_for_button_start">Start</string>
+    <string name="text_for_button_stop">Stop</string>
+    <string name="text_for_text_view_press_start">Press "Start"</string>
+    <string name="text_for_text_view_draw">Draw</string>
+    <string name="text_for_text_view_restart">Restart</string>
+</resources>

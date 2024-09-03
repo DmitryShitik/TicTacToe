@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:circularflow_radiusInDP="0dp"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/play_ground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4" />
+
+    <Button
+        android:id="@+id/main_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin_fot_button"
+        app:cornerRadius="0dp"
+        android:textSize="@dimen/text_size_for_all_text"
+        android:text="@string/text_for_button_start"/>
+
+
+</LinearLayout>
